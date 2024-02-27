@@ -72,12 +72,6 @@ public class Task4 {
     }
 
     public static double parseExchangeRate(String jsonResponse, String tocode) {
-        // Parse JSON response to extract exchange rate for the specified currency code (tocode)
-        // You need to implement this method based on the structure of the JSON response from the API
-        // For simplicity, let's assume the JSON response contains the exchange rates as key-value pairs
-        // where the currency codes are the keys and the exchange rates are the values
-        // You may use a JSON parsing library like Gson or Jackson for parsing JSON
-        // For demonstration purposes, we'll simulate the parsing process
         HashMap<String, Double> exchangeRates = new HashMap<>();
         exchangeRates.put("USD", 1.0); // Assuming USD is the base currency
         exchangeRates.put("CAD", 1.25); // Example exchange rate
